@@ -1,0 +1,28 @@
+Намерете уникалните числа сред дадените.
+
+Забранено е използването на set, unordered_set, unordered_multiset, map, unordered_map, unordered_multimap!
+
+Input Format
+
+На единствения ред е дадено число N и още N числа ai.
+
+Constraints
+
+1 <= N <= 200 000 LLONG_MIN <= ai <= LLONG_MAX
+
+Output Format
+
+На единствения ред от изхода изпишете броя на уникалните елементи сред дадените.
+
+Sample Input 0
+
+6 -10 80 -10 5000 5000 -42
+Sample Output 0
+
+4
+Sample Input 1
+
+8 8589672450 -9589672450 8589672450 8589672450 0 12 15 15
+Sample Output 1
+
+5
